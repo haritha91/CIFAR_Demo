@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+import torchnet.meter.confusionmeter as cm
 # functions to show an image
 def imshow(inp, title=None):
     """Imshow for Tensor."""
